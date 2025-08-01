@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Dhruv, an AI & Machine Learning Engineer.
+            Hi! I&apos;m Dhruv, an GenAI & Machine Learning Engineer.
           </p>
 
           <a href="#about">

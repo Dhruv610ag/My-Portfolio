@@ -39,9 +39,15 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
-                  {card.desc}
-                </p>
+                {Array.isArray(card.desc) ? (
+                <ul className="list-disc pl-5 mt-3 space-y-2 text-white-100 text-start text-sm md:text-base font-medium">
+                  {card.desc.map((point, index) => (
+                    <li key={index}>{point}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-start text-white-100 mt-3 font-semibold">{card.desc}</p>
+              )}
               </div>
             </div>
           </Button>

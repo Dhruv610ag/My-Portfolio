@@ -181,21 +181,35 @@ export const workExperience = [
   {
     id: 1,
     title: "Machine Learning Trainee - Dell",
-    desc: " Gained hands-on experience in Python for data preprocessing, model development and evaluation using various Machine Learning and Deep Learning techniques",
+    desc:  [
+        "Gained hands-on experience in Python for data preprocessing, model development, and evaluation using various Machine Learning and Deep Learning techniques.",
+        "Built an American Sign Language Predictor as a key project, achieving notable accuracy through model tuning and real-time prediction.",
+        "Applied core ML/DL concepts in a guided industry training setup, focusing on practical application to real-world datasets and structured project workflows."
+    ],
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Machine Learning Intern - Unified Mentor",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: [
+      "Developed and deployed multiple end-to-end Machine Learning models including classification, regression, and ensemble methods on real-world datasets.",
+      "Worked on impactful projects such as Animal Classification, Liver Cirrhosis Detection, and Forest Cover Prediction, demonstrating practical ML pipeline implementation.",
+      "Applied data preprocessing, feature selection, model evaluation, and visualization techniques to optimize performance metrics like accuracy and F1-score.",
+      "Collaborated remotely with mentors and team members, received structured training in ML and DL, and adapted quickly to feedback in a professional project-based environment."
+    ],
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
-  },
+  },  
   {
     id: 3,
     title: "Deep Learning Intern - Intel",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: [
+      "Designed and implemented ReFineNet, a knowledge distillation-based image enhancement system using deep CNNs, trained on the Vimeo-90K dataset.",
+      "Built a Multi-Scale Attentive Fusion Network (MSAFN) as the teacher and a lightweight LightMSAFN student model to achieve real-time inference with high SSIM/PSNR.",
+      "Applied advanced training strategies including distillation loss, data augmentation, and multi-metric evaluation (SSIM, PSNR, MOS) for optimal performance.",
+      "Completed under Intel Unnati Industrial Training Program, collaborating in a 3-member team with structured research, experimentation, and results-driven development."
+    ],
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
